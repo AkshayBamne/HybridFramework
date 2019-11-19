@@ -2,24 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48443" started-at="2019-11-19T14:02:07Z" finished-at="2019-11-19T14:02:56Z">
+  <suite name="HybridFramework" duration-ms="36554" started-at="2019-11-19T14:46:54Z" finished-at="2019-11-19T14:47:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48443" started-at="2019-11-19T14:02:07Z" finished-at="2019-11-19T14:02:56Z">
+    <test name="Test1" duration-ms="36554" started-at="2019-11-19T14:46:54Z" finished-at="2019-11-19T14:47:30Z">
       <class name="testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC_LoginTest_001@6093dd95]" name="setup" is-config="true" duration-ms="30692" started-at="2019-11-19T14:02:07Z" finished-at="2019-11-19T14:02:38Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_LoginTest_001@39c0f4a]" name="setup" is-config="true" duration-ms="27264" started-at="2019-11-19T14:46:54Z" finished-at="2019-11-19T14:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logintest()[pri:0, instance:testCases.TC_LoginTest_001@6093dd95]" name="logintest" duration-ms="16084" started-at="2019-11-19T14:02:38Z" finished-at="2019-11-19T14:02:54Z">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:testCases.TC_LoginTest_001@39c0f4a]" name="logintest" duration-ms="7575" started-at="2019-11-19T14:47:21Z" finished-at="2019-11-19T14:47:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.TC_LoginTest_001@6093dd95]" name="teardown" is-config="true" duration-ms="1445" started-at="2019-11-19T14:02:54Z" finished-at="2019-11-19T14:02:56Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.TC_LoginTest_001@39c0f4a]" name="teardown" is-config="true" duration-ms="1513" started-at="2019-11-19T14:47:29Z" finished-at="2019-11-19T14:47:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC_LoginTest_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- HybridFramework -->
 </testng-results>
