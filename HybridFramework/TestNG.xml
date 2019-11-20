@@ -2,11 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="HybridFramework">
 
-  <test name="Test1">
- 
-  <parameter name= "browser" value="chrome"></parameter>
-    <classes>
-      <class name="testCases.TC_LoginTest_001"/>
-    </classes>
-  </test> <!-- Test1 -->
+		<listeners>
+		<listener class-name="utilities.Reporting"/> 
+		</listeners>
+
+	  <test name="Test1">
+	 
+	  <parameter name= "browser" value="chrome"></parameter>
+	    <classes>
+	      <class name="testCases.TC_LoginTest_001"/>
+	    </classes>
+  	</test> <!-- Test1 -->
 </suite> <!-- Suite1 -->
