@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HybridFramework]">
+  <listeners>
+    <listener class-name="utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_LoginTest_001">
+      <class name="testCases.TC_LoginDDT_002">
         <methods>
-          <include name="logintest"/>
           <include name="teardown"/>
           <include name="setup"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- testCases.TC_LoginTest_001 -->
+      </class> <!-- testCases.TC_LoginDDT_002 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [HybridFramework] -->
