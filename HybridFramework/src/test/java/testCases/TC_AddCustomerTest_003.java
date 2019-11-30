@@ -30,22 +30,22 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		logger.info("providing customer details....");
 		
 		
-		addcust.custName("Pavan");
+		addcust.custName("Akki");
 		addcust.custgender("male");
-		addcust.custdob("10","15","1985");
+		addcust.custdob("10","08","1995");
 		Thread.sleep(5000);
 		addcust.custaddress("INDIA");
-		addcust.custcity("HYD");
-		addcust.custstate("AP");
-		addcust.custpinno("5000074");
-		addcust.custtelephoneno("987890091");
+		addcust.custcity("Mumbai");
+		addcust.custstate("MH");
+		addcust.custpinno("400099");
+		addcust.custtelephoneno("9664502381");
 		
 		String email=randomestring()+"@gmail.com";
 		addcust.custemailid(email);
 		addcust.custpassword("abcdef");
 		addcust.custsubmit();
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		
 		logger.info("validation started....");
 		
