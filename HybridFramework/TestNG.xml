@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="HybridFramework">
+<suite name="HybridFramework" parallel="methods" thread-count="2">
 
 		<listeners>
 		<listener class-name="utilities.Reporting"/> 
@@ -11,11 +11,11 @@
 	  <parameter name= "browser" value="chrome"></parameter>
 	    <classes>
 	    
-	      <class name="testCases.TC_LoginTest_001"/>
+	  <class name="testCases.TC_LoginTest_001"/>  
 	     <!--  <class name="testCases.TC_LoginDDT_002"/> -->
-	       <class name="testCases.TC_AddCustomerTest_003"/>
+	  <class name="testCases.TC_AddCustomerTest_003"/> 
 	      
 	    
 	    </classes>
-  	</test> <!-- Test1 -->
-</suite> <!-- Suite1 -->
+  	</test> 
+</suite> 

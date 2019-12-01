@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [HybridFramework]">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [HybridFramework]" parallel="methods">
   <listeners>
     <listener class-name="utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="Test1(failed)">
+  <test thread-count="2" name="Test1(failed)" parallel="methods">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testCases.TC_LoginTest_001">
@@ -14,13 +14,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_LoginTest_001 -->
-      <class name="testCases.TC_AddCustomerTest_003">
-        <methods>
-          <include name="addNewCustomer"/>
-          <include name="teardown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_AddCustomerTest_003 -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [HybridFramework] -->

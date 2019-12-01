@@ -1,0 +1,13 @@
+2019-12-01 12:33:02,450 - testCases.BaseClass -INFO - User name is provided
+2019-12-01 12:33:02,818 - testCases.BaseClass -INFO - Passsword is provided
+2019-12-01 12:45:09,330 - testCases.BaseClass -INFO - URL is opened
+2019-12-01 12:45:10,618 - testCases.BaseClass -INFO - Entered username
+2019-12-01 12:45:10,983 - testCases.BaseClass -INFO - Entered password
+2019-12-01 12:51:32,275 - testCases.BaseClass -INFO - URL is opened
+2019-12-01 12:51:32,402 - testCases.BaseClass -INFO - URL is opened
+2019-12-01 12:51:48,450 - testCases.BaseClass -INFO - Entered username
+2019-12-01 12:51:49,592 - testCases.BaseClass -INFO - Entered password
+2019-12-01 12:52:01,486 - testCases.BaseClass -INFO - Clicked submit button
+2019-12-01 12:52:13,651 - testCases.BaseClass -INFO - Entered username
+2019-12-01 12:52:14,374 - testCases.BaseClass -INFO - Entered password
+2019-12-01 12:52:28,266 - testCases.BaseClass -INFO - Clicked submit button

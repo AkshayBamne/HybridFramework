@@ -2,6 +2,7 @@ package testCases;
 
 import java.io.IOException;
 
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -20,8 +21,9 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		lp.setPassword(password);
 		logger.info("Passsword is provided");
 		lp.clickSubmit();
-		
-		Thread.sleep(3000);
+	
+		//wait=new WebDriverWait(driver, 20);
+		Thread.sleep(30);
 		
 		AddCustomerPage addcust=new AddCustomerPage(driver);
 		
@@ -45,7 +47,8 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		addcust.custpassword("abcdef");
 		addcust.custsubmit();
 		
-		Thread.sleep(5000);
+		//wait=new WebDriverWait(driver, 20);
+		Thread.sleep(50);
 		
 		logger.info("validation started....");
 		
